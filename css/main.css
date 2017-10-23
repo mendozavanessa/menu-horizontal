@@ -1,0 +1,36 @@
+body{
+  font-family: sans-serif;
+}
+
+nav {
+  /*outline: 1px solid red;*/
+}
+
+ul {
+  list-style: none;
+  /*outline: 1px solid blue;*/
+  margin: 0px;
+  padding: 0px;
+  background: #2e2e2a;
+  line-height: 40px;
+  overflow: auto;/*devuelve el contexto de bloque*/
+}
+
+li {
+  /*outline: 1px solid green;*/
+  width: 100px;
+  /*display: inline-block; tmb podemos hacerlo con float y overflow*/
+  float: left;/*le quita el contexto de bloque*/
+  text-align: center;
+}
+
+a {
+  /*outline: 1px solid purple;*/
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+a:hover{
+  background: #f9a91a;
+  color: #000;
+}
