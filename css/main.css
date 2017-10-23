@@ -1,36 +1,38 @@
-body{
-  font-family: sans-serif;
+body{/*selector tipo etiqueta*/
+  font-family: sans-serif;/*fuente tipografica*/
 }
 
-nav {
+nav {/*señector tipo etiqueta html semantico*/
   /*outline: 1px solid red;*/
 }
 
-ul {
-  list-style: none;
+ul {/*selector tipo etiqueta lista desordenada*/
   /*outline: 1px solid blue;*/
-  margin: 0px;
-  padding: 0px;
+  list-style: none;/*quita la viñeta que tiene una lista desordenada*/
+  margin: 0px;/*no tiene margen*/
+  padding: 0px;/*no tiene relleno*/
   background: #2e2e2a;
-  line-height: 40px;
+  line-height: 40px;/*separacion entre las lineas de la lista*/
   overflow: auto;/*devuelve el contexto de bloque*/
 }
 
-li {
+li {/*selector tipo etiqueta cada linea de la lista*/
   /*outline: 1px solid green;*/
   width: 100px;
   /*display: inline-block; tmb podemos hacerlo con float y overflow*/
   float: left;/*le quita el contexto de bloque*/
-  text-align: center;
+  text-align: center;/*texto centrado dentro de cada linea de la lista*/
 }
 
-a {
-  /*outline: 1px solid purple;*/
-  text-decoration: none;
-  display: block;
-  color: white;
+a {/*selector tipo etiqueta es cada link etiqueta vacia inline*/
+  /*outline: 1px solid green;*/
+  text-decoration: none;/*quita la linea subrayada  que un link tiene por defecto*/
+  display: block;/*vuelve en bloque a la etiqueta "a" que su comportamiento es inline*/
+  color: white;/*color del texto*/
 }
-a:hover{
-  background: #f9a91a;
+
+/*selector tipo etiqueta con herencia y pseudo clase*/
+a:hover{/*efecto de sombreado sobre la etiqueta "a"*/
+  background: #f9a91a;/*color de sombreado*/
   color: #000;
 }
